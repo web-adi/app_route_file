@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Typography from "@mui/material/Typography";
 import Wrapper from "@/layout/Wrapper/Wrapper";
 import Banner from "@/Components/Banner/Banner";
+import FlashSales from "@/Components/FlashSales/FlashSales";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <Wrapper>
       <Banner />
+      <FlashSales />
     </Wrapper>
   );
 }
