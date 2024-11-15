@@ -20,7 +20,7 @@ const TodoBlk = () => {
           Add Product +{" "}
         </Button>
 
-        <ViewProductDetails/>
+        <ViewProductDetails />
 
         {/* Modal */}
         <MuiModalWrapper open={open} onClose={handleClose} title="Add Product">
