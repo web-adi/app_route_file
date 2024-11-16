@@ -1,4 +1,5 @@
 import CommonAccordian from "@/Components/CommonAccordian/CommonAccordian";
+import SliderComp from "@/Components/SliderComp/SliderComp";
 import {
   Box,
   Button,
@@ -133,7 +134,9 @@ function Demo() {
         </Box>
       </Box>
 
-      <CommonAccordian />
+      {/* <CommonAccordian /> */}
+
+      <SliderComp />
     </DemoWrapper>
   );
 }
