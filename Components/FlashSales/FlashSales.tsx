@@ -2,12 +2,15 @@ import { FlashSalesWrap } from "@/styles/StyledComponent/FlashSalesWrap";
 import React from "react";
 import Container from "@mui/material/Container";
 import CommonHeader from "../CommonHeader/CommonHeader";
+import { Button } from "@mui/material";
 
 const FlashSales = () => {
   return (
     <FlashSalesWrap className="commonGap">
       <Container fixed>
         <CommonHeader title="Today’s" sectionHead="Flash Sales" />
+
+        <Button>Shop Now</Button>
       </Container>
     </FlashSalesWrap>
   );
