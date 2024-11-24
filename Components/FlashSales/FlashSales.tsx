@@ -9,8 +9,6 @@ const FlashSales = () => {
     <FlashSalesWrap className="commonGap">
       <Container fixed>
         <CommonHeader title="Today’s" sectionHead="Flash Sales" />
-
-        <Button>Shop Now</Button>
       </Container>
     </FlashSalesWrap>
   );
