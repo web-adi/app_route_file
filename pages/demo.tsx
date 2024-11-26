@@ -1,3 +1,4 @@
+import ChatBox from "@/Components/ChatBox/ChatBox";
 import CommonAccordian from "@/Components/CommonAccordian/CommonAccordian";
 import SliderComp from "@/Components/SliderComp/SliderComp";
 import {
@@ -7,6 +8,7 @@ import {
   LinearProgressProps,
   styled,
   Typography,
+  Container,
 } from "@mui/material";
 import React from "react";
 
@@ -134,9 +136,9 @@ function Demo() {
         </Box>
       </Box>
 
-      {/* <CommonAccordian /> */}
-
-      <SliderComp />
+      <Container fixed>
+        <ChatBox />
+      </Container>
     </DemoWrapper>
   );
 }
