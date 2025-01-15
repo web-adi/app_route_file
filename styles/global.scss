@@ -1,19 +1,5 @@
-.commonGap {
-    padding: 80px 0;
-}
 
-.otp_blk {
-    input {
-        width: 25% !important;
-        outline: none;
-        padding: 20px;
-        font-size: 20px;
-        background: #7CD1D2;
-        border: none;
-        color: black;
-        border-radius: 10px;
-        &:not(:last-child) {
-            margin-right: 20px !important;
-        }
-    }
+
+.commonGap{
+    padding: 80px 0;
 }
